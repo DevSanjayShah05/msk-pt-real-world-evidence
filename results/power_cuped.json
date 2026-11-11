@@ -1,0 +1,107 @@
+{
+  "total_spend": {
+    "unit": "$ per member per year",
+    "n": 1372,
+    "sd": 24511.774575518277,
+    "rho_pre_post": 0.4544467496578044,
+    "variance_reduction": 0.20652184827454315,
+    "n_per_arm": {
+      "500": {
+        "unadjusted": 37727,
+        "cuped": 29936
+      },
+      "1000": {
+        "unadjusted": 9432,
+        "cuped": 7484
+      },
+      "2000": {
+        "unadjusted": 2358,
+        "cuped": 1871
+      }
+    }
+  },
+  "total_spend_winsorized_p99": {
+    "unit": "$ (winsorized at p99)",
+    "n": 1372,
+    "sd": 21544.60118489418,
+    "rho_pre_post": 0.44778165689154287,
+    "variance_reduction": 0.2005084122485354,
+    "n_per_arm": {
+      "500": {
+        "unadjusted": 29146,
+        "cuped": 23302
+      },
+      "1000": {
+        "unadjusted": 7287,
+        "cuped": 5826
+      },
+      "2000": {
+        "unadjusted": 1822,
+        "cuped": 1457
+      }
+    }
+  },
+  "pcs": {
+    "unit": "VR-12 PCS points",
+    "n": 923,
+    "sd": 11.807122059376722,
+    "rho_pre_post": 0.7653752956739134,
+    "variance_reduction": 0.5857993432279304,
+    "n_per_arm": {
+      "1": {
+        "unadjusted": 2189,
+        "cuped": 907
+      },
+      "2": {
+        "unadjusted": 548,
+        "cuped": 227
+      },
+      "3": {
+        "unadjusted": 244,
+        "cuped": 101
+      }
+    }
+  },
+  "pain_interference": {
+    "unit": "points on the 1-5 scale",
+    "n": 848,
+    "sd": 1.2004675006042769,
+    "rho_pre_post": 0.650939857622837,
+    "variance_reduction": 0.42372269824203934,
+    "n_per_arm": {
+      "0.1": {
+        "unadjusted": 2263,
+        "cuped": 1304
+      },
+      "0.2": {
+        "unadjusted": 566,
+        "cuped": 326
+      },
+      "0.3": {
+        "unadjusted": 252,
+        "cuped": 145
+      }
+    }
+  },
+  "any_opioid": {
+    "unit": "absolute risk",
+    "n": 1372,
+    "sd": 0.38094508343805,
+    "rho_pre_post": 0.4468799140794411,
+    "variance_reduction": 0.19970165760764866,
+    "n_per_arm": {
+      "0.02": {
+        "unadjusted": 5696,
+        "cuped": 4558
+      },
+      "0.03": {
+        "unadjusted": 2532,
+        "cuped": 2026
+      },
+      "0.05": {
+        "unadjusted": 912,
+        "cuped": 730
+      }
+    }
+  }
+}
